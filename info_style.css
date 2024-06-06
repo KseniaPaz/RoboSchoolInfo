@@ -71,4 +71,44 @@ summary::-webkit-details-marker {
   line-height: 28.8px;
   text-align: left;
   color: rgba(20, 16, 36, 0.6980392157);
+}
+
+.info__after {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 1046px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.info__after__text {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 80px;
+  text-align: left;
+  color: #141024;
+}
+.info__after__box {
+  display: flex;
+  gap: 40px;
+}
+.info__after__items {
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info__after__items_title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 38.4px;
+  text-align: left;
+  color: #141024;
+}
+.info__after__items_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: #141024;
 }/*# sourceMappingURL=info_style.css.map */
