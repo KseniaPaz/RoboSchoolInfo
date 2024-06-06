@@ -28,6 +28,24 @@
     padding-top: 120px;
     display: flex;
     flex-direction: column;
+
+    &__about {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+
+      &__text {
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: left;
+        color: #141024;
+
+        &_span {
+          font-weight: 600;
+        }
+
+      }
+    }
   }
 
-  
