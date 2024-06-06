@@ -28,13 +28,17 @@ summary::-webkit-details-marker {
   padding-top: 120px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .info__about {
+  margin-bottom: 120px;
+  min-width: 1046px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 60px;
 }
 .info__about__text {
+  width: 891px;
   font-size: 30px;
   font-weight: 400;
   line-height: 48px;
@@ -43,4 +47,28 @@ summary::-webkit-details-marker {
 }
 .info__about__text_span {
   font-weight: 600;
+}
+.info__about__box {
+  display: flex;
+  gap: 40px;
+}
+.info__about__numbers {
+  max-width: 236px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info__about__numbers_num {
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 112px;
+  text-align: left;
+  color: #D52027;
+}
+.info__about__numbers_text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: rgba(20, 16, 36, 0.6980392157);
 }/*# sourceMappingURL=info_style.css.map */

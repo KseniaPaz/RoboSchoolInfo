@@ -28,13 +28,18 @@
     padding-top: 120px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     &__about {
+      margin-bottom: 120px;
+      min-width: 1046px;
       display: flex;
       flex-direction: column;
-      gap: 40px;
+      //align-items: center;
+      gap: 60px;
 
       &__text {
+        width: 891px;
         font-size: 30px;
         font-weight: 400;
         line-height: 48px;
@@ -44,8 +49,40 @@
         &_span {
           font-weight: 600;
         }
-
       }
+
+      &__box {
+          display: flex;
+          gap: 40px;
+      }
+
+      &__numbers {
+        max-width: 236px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &_num {
+          font-size: 70px;
+          font-weight: 600;
+          line-height: 112px;
+          text-align: left;
+          color: #D52027;
+        }
+
+        &_text {
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 28.8px;
+          text-align: left;
+          color: #141024B2;
+        }
+      }
+
     }
+
+    
+
+
   }
 
