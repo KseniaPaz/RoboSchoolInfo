@@ -137,14 +137,17 @@
 }
 
 .info__hint {
+  opacity: 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 251px;
   height: 56px;
   border-radius: 5px;
   box-shadow: 0px 2px 8px 0px #1410241A;
   position: absolute;
   right: 10px;
-  top: 130px;
+  top: 170px;
 
   &_text {
     font-size: 16px;
@@ -153,6 +156,10 @@
     text-align: center;
     color:#141024;
   }
+}
+
+.info__icon:hover ~.info__hint {
+  opacity: 1;
 }
 
 

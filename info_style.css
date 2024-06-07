@@ -121,14 +121,17 @@ summary::-webkit-details-marker {
 }
 
 .info__hint {
+  opacity: 0;
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 251px;
   height: 56px;
   border-radius: 5px;
   box-shadow: 0px 2px 8px 0px rgba(20, 16, 36, 0.1019607843);
   position: absolute;
   right: 10px;
-  top: 130px;
+  top: 170px;
 }
 .info__hint_text {
   font-size: 16px;
@@ -136,4 +139,8 @@ summary::-webkit-details-marker {
   line-height: 16px;
   text-align: center;
   color: #141024;
+}
+
+.info__icon:hover ~ .info__hint {
+  opacity: 1;
 }/*# sourceMappingURL=info_style.css.map */
