@@ -83,6 +83,7 @@
   }
 
   .info__after {
+    position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
     padding-left: 180px;
@@ -129,5 +130,33 @@
     }
 
   }
+
+.info__icon {
+  position: absolute;
+  right: 220px;
+}
+
+.info__hint {
+  display: flex;
+  width: 251px;
+  height: 56px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px 0px #1410241A;
+  position: absolute;
+  right: 10px;
+  top: 130px;
+
+  &_text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    color:#141024;
+  }
+}
+
+
+
+
   
 
